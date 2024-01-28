@@ -1,0 +1,35 @@
+{
+  "name": "using-pre-built-react-components",
+  "version": "1.0.0",
+  "description": "To run the program ;-  Step 1 : Go to terminal , changing the directory to the place this file is saved and write command - npm i  (It will install all required packages , can take a while)  Step 2 : After every package is install in the command line write command - npm start (It will start your server and open the app on your default browser)",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "5.15.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": "",
+  "license": "ISC"
+}
