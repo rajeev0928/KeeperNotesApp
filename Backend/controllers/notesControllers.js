@@ -13,7 +13,6 @@ const addNote = async(req,res)=>{
     const deleteNote = async (req,res)=>{
  
     const title2 = req.body.title;
-    console.log(title2);
    await note.deleteOne({title : title2 });
    res.end();
     
