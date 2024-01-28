@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/notes', notes);
 
 
-mongoose.connect("mongodb+srv://admin-Rajeev:Ra.*11@rajeev.ojmvlci.mongodb.net/notesdb");
+mongoose.connect("mongodb+srv://user-1:123@rajeev.ojmvlci.mongodb.net/");
 
 app.listen(4000,()=>{
     console.log("Server is up and running")
