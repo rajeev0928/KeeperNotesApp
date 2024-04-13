@@ -9,8 +9,10 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "5.15.4",
+    "axios": "^1.6.7",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "^6.22.0",
     "react-scripts": "latest",
     "request": "^2.88.2"
   },
