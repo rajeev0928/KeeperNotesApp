@@ -16,8 +16,6 @@ mongoose.connect(process.env.MONGO_URI);
 
 mongoose.connect("mongodb+srv://user-1:123@rajeev.ojmvlci.mongodb.net/");
 
-app.listen(4000,()=>{
-
 app.listen(process.env.PORT,()=>{
 
     console.log("Server is up and running")
