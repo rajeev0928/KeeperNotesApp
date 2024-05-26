@@ -16,11 +16,10 @@ const addNote = async(req,res)=>{
     const deleteNote = async (req,res)=>{
  
     const title2 = req.body.title;
-<<<<<<< HEAD
-=======
+
 
     console.log(req.body._id);
->>>>>>> 1005247 (Login/Signup added)
+
    await note.deleteOne({title : title2 });
    res.end();
     
